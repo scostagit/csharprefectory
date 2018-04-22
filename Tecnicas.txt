@@ -8,3 +8,5 @@ a técnica extrair variável também possui a sua forma inversa, e ela é chamada de
 5-substituir variável por consulta
 6 -  Quebrar uma variável temporária em 2 ou mais
 7 - Remover atribuições a parâmetros
+8 - Substituição do método por método-objeto
+9 -Substituir algoritmo
