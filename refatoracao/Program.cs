@@ -93,4 +93,16 @@ int GetNextLevel() { return level + 1; }
 é óbvio, mas
 int GetValue() { return (valorBase + acrescimo - desconto) * promocao;}
 tem uma expressão complexa demais para o nome do método, e não deveria ser incorporado
+
+
+    Em que situação você deveria aplicar a técnica de refatoração Extrair Variável?
+    Você tem uma expressão difícil de entender
+ 
+    Isso mesmo! O principal motivo para extrair variáveis é deixar uma expressão complexa mais compreensível, dividindo-a em partes intermediárias.
+
+    Essas partes podem ser:
+
+    Uma condição do operador if() ou parte do operador ternário
+    Uma expressão aritmética longa sem resultados intermediários
+    Linhas compostas muito extensas
  */

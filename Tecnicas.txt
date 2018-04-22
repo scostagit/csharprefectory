@@ -1,0 +1,10 @@
+Tecnicas de Refatoção
+
+1 -Extract Method: Para eliminar de duplicação de código 
+2 -Inline Method: que é a operação inversa do "Extract Method".
+3 -Extrair Variável 
+4-  incorporar variável temporária: Assim como a técnica extrair método possui a sua forma inversa, conhecida como incorporar método,
+a técnica extrair variável também possui a sua forma inversa, e ela é chamada de incorporar variável temporária.
+5-substituir variável por consulta
+6 -  Quebrar uma variável temporária em 2 ou mais
+7 - Remover atribuições a parâmetros

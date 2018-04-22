@@ -1,0 +1,31 @@
+O que aprendemos?
+Técnica de Refatoração Nº 3
+Extrair variável (Extract Variable)
+Partes de uma expressão complexa são armazenadas em variáveis explicativas
+Quando refatorar?
+Uma expressão complexa pode ser quebrada em partes (variáveis) mais simples
+Porém...
+Você terá mais variáveis espalhadas no código
+Quando NÃO refatorar?
+Quando a expressão da variável não é auto-explicativa: quando extraímos para
+var valorPromocional = (valorBase + acrescimo - desconto) * promocao;
+conseguimos explicar uma expressão complexa, mas
+var proximoNivel = level + 1;
+é desnecessária, pois a expressão level + 1 já é tão óbvia quando proximoNivel.
+Técnica de Refatoração Nº 4
+Incorporar variável temporária (Inline Temp)
+
+Você tem uma variável temporária que só recebe valor uma vez, e ela recebe o valor de uma expressão simples
+Quando refatorar?
+A expressão da variável é tão óbvia quanto seu nome, e a variável se torna desnecessária
+Quando NÃO refatorar?
+A expressão da variável não é auto-explicativa: a expressão
+var proximoNivel = level + 1;
+é óbvia, mas: var vlrPromocional = (valorBase + acrescimo - desconto) * promocao; não deveria ser incorporada
+Substituir variável por consulta a método (Replace Temp With Query)
+
+Mover para um novo método a expressão atribuída a uma variável
+Quando refatorar?
+Quando você está armazenando o resultado de uma expressão em uma variável temporária, mas ao mesmo tempo precisa que a expressão seja reutilizada em outros pontos da classe ou da aplicação, faz sentido disponibilizar a expressão num método que pode ser consultado por outros pontos da classe ou da aplicação.
+Por que refatorar?
+Porque um método pode ser reutilizado em outros lugares, mas a variável temporária não, pois ela tem um escopo mais limitado do que um método.

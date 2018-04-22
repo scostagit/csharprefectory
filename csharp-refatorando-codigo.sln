@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caelum-stella-csharp", "caelum-stella-csharp\caelum-stella-csharp.csproj", "{E120764F-9D24-4EC1-AB90-B24456A0FD62}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "caelum-stella-csharp-netcore-test", "caelum-stella-csharp-test\caelum-stella-csharp-netcore-test.csproj", "{5EA8C917-01B1-4F38-BDD8-BBBD3ACCD53D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "refatoracao", "refatoracao\refatoracao.csproj", "{B6D0DB85-54D1-45EE-8D9B-24DABADA6E7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6DA02C02-DB0F-4EB6-A5C0-5E1562E46A11}"
+	ProjectSection(SolutionItems) = preProject
+		Capitulo 2.txt = Capitulo 2.txt
+		Tecnicas.txt = Tecnicas.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
